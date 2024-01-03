@@ -1,5 +1,18 @@
 import logo from './logo.svg';
 import './App.scss';
+import MyComponent from './example/MyComponet';
+import FormReact from './example/form';
+
+
+/**
+ * 2 component:
+ *  1. class cmponent
+ *  2. function component (
+ *  + function App() {}
+ *  + cont App = () => {}
+ *  ,arrow)
+ * Compponent là 1 function và class
+ */
 
 function App() {
   return (
@@ -17,6 +30,13 @@ function App() {
         >
           Learn React
         </a>
+
+         {/* <MyComponent/> */}
+
+           {/* <MyComponent></MyComponent> */}
+
+        <FormReact></FormReact>
+
       </header>
     </div>
   );
